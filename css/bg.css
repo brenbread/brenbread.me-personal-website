@@ -7,7 +7,7 @@ html {
 body {
     background-image: url(http://i.imgur.com/5x3JgQc.png);
     background-repeat: repeat;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Karla', sans-serif;
     color: #FFFFFF;
     overflow: hidden;
 }
@@ -35,46 +35,38 @@ a:hover {
   -moz-transition: opacity .5s ease-out;
   -webkit-transition: opacity .5s ease-out;
   -o-transition: opacity .5s ease-out;
-
-  font-size: 100px;
-  letter-spacing: 20px;
+  font-size: 60px;
+  letter-spacing: 15px;
   color: white;
 }
 
 .icon:hover {
   opacity: 1;
-  font-size: 100px;
-  letter-spacing: 20px;
-  color: white;
 }
 
 .social {
   text-align: center;
-  font-size: 40px;
+  font-size: 16px;
   animation: fadeAndScale 1s ease-in;
 }
 
 
 .moreInfo {
   text-align: center;
-  font-size: 25px;
+  font-size: 16px;
   animation: fadeAndScale 1s ease-in;
 }
 
 .otherStuff {
   text-align: center;
-  font-size: 25px;
+  font-size: 16px;
   color: white;
   animation: fadeAndScale 1s ease-in;
 }
 
 .brenText {
   text-align: center;
-  font-size: 80px;
-  margin: 20px auto 0 auto;
-	padding: 10px;
-  white-space: nowrap;
-  overflow: hidden;
+  font-size: 60px;
   animation: fadeAndScale 1s ease-in;
 }
 

@@ -1,0 +1,37 @@
+<title>SDVX Grade Calculator</title>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/input.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/konami.js"></script>
+<link rel="icon" href="bren.ico">
+</head>
+<body>
+<center>
+  <h1>SDVX Grade Calculator</h1>
+  <h3>Max possible near and error values for each grade.</h3>
+  <h4>Max nears assume ULTIMATE CHAIN. Max errors assume 0 nears.</h4>
+  <form>
+    <div class="form-group">
+      <h3>
+        <label for="noteCount">Max Chain</label>
+        <input id="noteCount" type="number" min="0"/> <br>
+      </h3>
+      <h2><input type="button" class="btn btn-primary" onclick="scoreCalc()" value="Calculate!"> <input type="button" class="btn btn-primary" onclick="scoreClear()" value="Clear"></h2>
+    </div>
+  </form>
+
+
+  <h4><label for="gradeS">S (990+)</label> <div id="gradeS"></div></h4>
+  <h4><label for="gradeAAAplus">AAA+ (980+)</label> <div id="gradeAAAplus"></div></h4>
+  <h4><label for="gradeAAA">AAA (970+)</label> <div id="gradeAAA"></div></h4>
+  <h4><label for="gradeAAplus">AA+ (950+)</label> <div id="gradeAAplus"></div></h4>
+  <h4><label for="gradeAA">AA (930+)</label> <div id="gradeAA"></div></h4>
+  <h4><label for="gradeAplus">A+ (900+)</label> <div id="gradeAplus"></div></h4>
+  <h4><label for="gradeA">A (870+)</label> <div id="gradeA"></div></h4>
+  <div id="wawa"></div>
+  <h4><a href="/">Go back</a></h4>
+
+</center>
+</body>

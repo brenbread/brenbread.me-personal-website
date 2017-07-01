@@ -9,6 +9,7 @@ body {
     background-repeat: repeat;
     font-family: 'Maven Pro', sans-serif;
     color: #FFFFFF;
+    overflow: hidden;
 }
 
 a:link {

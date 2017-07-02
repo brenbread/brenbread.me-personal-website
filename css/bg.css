@@ -1,15 +1,16 @@
 html {
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
 }
 body {
-    background-image: url(http://i.imgur.com/5x3JgQc.png);
+    background-image: url(https://i.imgur.com/5x3JgQc.png);
     background-repeat: repeat;
     font-family: 'Karla', sans-serif;
     color: #FFFFFF;
-    overflow: hidden;
 }
 
 a:link {
@@ -45,31 +46,58 @@ a:hover {
 }
 
 .social {
-  text-align: center;
+
   font-size: 16px;
   animation: fadeAndScale 1s ease-in;
 }
 
 
 .moreInfo {
-  text-align: center;
+
   font-size: 16px;
   animation: fadeAndScale 1s ease-in;
 }
 
 .otherStuff {
-  text-align: center;
+
   font-size: 16px;
   color: white;
   animation: fadeAndScale 1s ease-in;
 }
 
 .brenText {
-  text-align: center;
-  font-size: 60px;
+  font-size: 40px;
+  padding-left: -500px;
+  padding-right: -500px;
   animation: fadeAndScale 1s ease-in;
 }
 
+
+#myType {
+  color: #ffaaaa;
+  animation: fadeAndScale 1s ease-in;
+}
+
+.typed-cursor{
+  opacity: 1;
+  font-size: 40px;
+  color: #ffaaaa;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+.typed-fade-out{
+  opacity: 0;
+  animation: 0;
+  transition: opacity .25s;
+}
 
 @keyframes fadeAndScale {
   from {

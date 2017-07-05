@@ -4,3 +4,5 @@ Also includes parts of the previously created SDVX Score & Grade calculators in 
 Viewable here: https://brenbread.me/
 
 The current starry background is taken from [this CodePen](https://codepen.io/Glucio/pen/BoLWPo).
+
+Text animation uses [Typed.js](https://github.com/mattboldt/typed.js/)
